@@ -12,7 +12,7 @@ namespace Infra.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Peaples",
+                name: "Peoples",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
@@ -22,7 +22,7 @@ namespace Infra.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Peaples", x => x.Id);
+                    table.PrimaryKey("PK_Peoples", x => x.Id);
                 });
         }
 
@@ -30,7 +30,7 @@ namespace Infra.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Peaples");
+                name: "Peoples");
         }
     }
 }

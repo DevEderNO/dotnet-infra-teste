@@ -22,7 +22,7 @@ namespace Infra.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("Infra.Domain.Peaple.Peaple", b =>
+            modelBuilder.Entity("Infra.Domain.People.People", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -43,7 +43,7 @@ namespace Infra.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Peaples");
+                    b.ToTable("Peoples");
                 });
 #pragma warning restore 612, 618
         }

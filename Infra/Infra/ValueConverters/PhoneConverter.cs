@@ -1,4 +1,3 @@
-using System.Text.RegularExpressions;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Phone = Infra.Infra.ValueObjects.Phone;
 

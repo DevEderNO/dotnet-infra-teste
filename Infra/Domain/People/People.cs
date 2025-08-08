@@ -3,9 +3,9 @@ using System.Text.Json.Serialization;
 using Infra.Infra.JsonConverters;
 using Infra.Infra.ValueObjects;
 
-namespace Infra.Domain.Peaple;
+namespace Infra.Domain.People;
 
-public class Peaple
+public class People
 {
   [Key]
   public Guid Id { get; private set; }
@@ -16,7 +16,7 @@ public class Peaple
   [Required, JsonConverter(typeof(PhoneJsonConverter))]
   public Phone Phone { get; private set; }
 
-  public Peaple(string name, Email email, Phone phone){
+  public People(string name, Email email, Phone phone){
     Id = Guid.NewGuid();
     Name = name;
     Email = email;
