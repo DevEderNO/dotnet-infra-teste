@@ -1,6 +1,6 @@
 # .NET Infrastructure Test Project
 
-Baseado na análise do repositório **dotnet-infra-teste**, criei um README completo que documenta este projeto de demonstração em ASP.NET Core. O projeto implementa conceitos avançados de **Domain-Driven Design (DDD)**, **Value Objects**, **Entity Framework Core** com PostgreSQL e validação robusta.[1][2][3][4]
+O projeto implementa conceitos avançados de **Domain-Driven Design (DDD)**, **Value Objects**, **Entity Framework Core** com PostgreSQL e validação robusta.[1][2][3][4]
 
 ## 🚀 **Principais Características do Projeto**
 
@@ -94,3 +94,4 @@ Este projeto serve como uma excelente **referência de implementação** para co
 [24] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Migrations/20250808060527_Initial.cs
 [25] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Migrations/20250808060527_Initial.Designer.cs
 [26] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Migrations/AppDbContextModelSnapshot.cs
+
