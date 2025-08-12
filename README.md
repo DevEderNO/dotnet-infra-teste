@@ -67,31 +67,3 @@ Criei um **README detalhado**  que inclui:
 O README está formatado profissionalmente em português brasileiro, seguindo as melhores práticas de documentação técnica, e pode ser usado diretamente no repositório GitHub para orientar desenvolvedores sobre como utilizar e contribuir com o projeto.
 
 Este projeto serve como uma excelente **referência de implementação** para conceitos avançados de .NET, demonstrando como estruturar uma aplicação seguindo princípios de **Clean Architecture** e **Domain-Driven Design**.
-
-[1] https://github.com/DevEderNO/dotnet-infra-teste.git
-[2] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra.sln
-[3] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Infra.csproj
-[4] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Program.cs
-[5] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Controllers/PeopleController.cs
-[6] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Domain/People/People.cs
-[7] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Data/AppDbContext.cs
-[8] https://github.com/DevEderNO/dotnet-infra-teste/tree/master/Infra/Infra
-[9] https://github.com/DevEderNO/dotnet-infra-teste/tree/master/Infra/Infra/ValueObjects
-[10] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Infra.http
-[11] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Infra/ValueObjects/Email.cs
-[12] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Infra/ValueObjects/Phone.cs
-[13] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Infra/ValueConverters/EmailConverter.cs
-[14] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Infra/ValueConverters/PhoneConverter.cs
-[15] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Infra/ValueConverters/ValueConverter.cs
-[16] https://github.com/DevEderNO/dotnet-infra-teste/tree/master/Infra/Infra/ValueConverters
-[17] https://github.com/DevEderNO/dotnet-infra-teste/tree/master/Infra/Infra/Filters
-[18] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Infra/Filters/GlobalValidationFilter.cs
-[19] https://github.com/DevEderNO/dotnet-infra-teste/tree/master/Infra/Infra/JsonConverters
-[20] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Infra/JsonConverters/EmailJsonConverter.cs
-[21] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Infra/JsonConverters/PhoneJsonConverter.cs
-[22] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/appsettings.json
-[23] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/appsettings.Development.json
-[24] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Migrations/20250808060527_Initial.cs
-[25] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Migrations/20250808060527_Initial.Designer.cs
-[26] https://github.com/DevEderNO/dotnet-infra-teste/blob/master/Infra/Migrations/AppDbContextModelSnapshot.cs
-
