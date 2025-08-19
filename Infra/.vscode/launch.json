@@ -3,5 +3,24 @@
   // Hover to view descriptions of existing attributes.
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
-  "configurations": []
+  "configurations": [
+    {
+			"name": "netcoredbg",
+			"type": "coreclr",
+			"request": "launch",
+			// "preLaunchTask": "build_debug",
+			"cwd": "${workspaceFolder}",
+			"program": "${workspaceFolder}/bin/Debug/net9.0/Infra.dll",
+			"stopAtEntry": false,
+
+			"pipeTransport": {
+				"pipeCwd": "${workspaceFolder}",
+				"pipeProgram": "cmd",
+				"pipeArgs": ["/c"],
+				"debuggerPath": "netcoredbg",
+				"quoteArgs": true,
+				"debuggerArgs": ["--interpreter=vscode"]
+			}
+		}
+  ]
 }
